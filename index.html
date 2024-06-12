@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>dhafa 213831 | Lab1Q1</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">dhafawarganegara</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#activity">Activity</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">dhafa</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#Activity" onclick="toggleMenu()">Activity</a></li>
+          <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/picture.png" alt="" />
+      </div>
+      <div class="section__text">
+        <p1>Hello, I'm</p1>
+        <h1 class="title">dhafa</h1>
+        <p class="section__text__p2">Welcome to my website</p>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/in/muhammad-dhafa-warganegara'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/warganegaradhafa'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/picture.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Awards</h3>
+              <p>Indonesian National Olympiad <br />Top 50</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Universiti Putra Malaysia<br />Bachelor of Software Engineering</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              As an Indonesian student with a passion for software engineering,
+              I have always strived for excellence in my academic and extracurricular pursuits. 
+              My participation in the Indonesian National Olympiad (Chemistry), where I ranked in the top 50, reflects my commitment to academic achievement and problem-solving skills. 
+              Currently, I am pursuing a Bachelor of Software Engineering at Universiti Putra Malaysia, where I am gaining extensive knowledge and hands-on experience in the field. 
+              My goal is to leverage my skills to contribute to innovative projects and make a positive impact in the tech industry.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+
+
+
+
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Programming Language</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PHP</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#Activity'"
+      />
+    </section>
+
+
+
+    <section id="Activity">
+      <p class="section__text__p1">Here's some of my</p>
+      <h1 class="title">Activity</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/debate.png"
+                alt="debate"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">School's Debate Competition Winner</h2>
+            <p>Our school had this competition and i had won it once</p>
+            <div class="btn-container">
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/futsal.png"
+                alt="futsal"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Screnixi Cup Winner</h2><br>
+            <p>We won screnixi cup in my last moment as JISc student, it was an outstanding moment</p>
+            <div class="btn-container"> 
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/basket.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">High School Basketball Captain</h2><br>
+            <p>We won several regional tournaments that made SMAZA16 one of the basketball powehouse in Ngaliyan</p>
+            <div class="btn-container">
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/matthijs.png"
+                alt="bola"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">BBFC player</h2><br>
+            <p>I am currently a part time football player, my main position is center back but i can play as a left and right back also</p>
+            <div class="btn-container"> 
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/kimia.png"
+                alt="futsal"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Science Olympiad Participant</h2><br>
+            <p>i took a participation in chemistry subject, which i get top 50 out of 300 student from all over Indonesia</p>
+            <div class="btn-container"> 
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+
+
+    <section id="education">
+      <p class="section__text__p1">My Academic</p>
+      <h1 class="title">Education</h1>
+      <div class="education-container">
+        <div class="education-card">
+          <div class="education-logo-container">
+            <img src="./assets/highschool.png" alt="SMAI Al Azhar 16 Logo" class="education-logo">
+          </div>
+          <div class="education-info">
+            <h3>SMAI Al Azhar 16</h3>
+            <p>Location: Semarang, Central Java</p>
+            <p>Years Attended: 2019 - 2022</p>
+          </div>
+        </div>
+        <div class="education-card">
+          <div class="education-logo-container">
+            <img src="./assets/uni.png" alt="Universiti Putra Malaysia Logo" class="education-logo">
+          </div>
+          <div class="education-info">
+            <h3>Universiti Putra Malaysia</h3>
+            <p>Location: Seri Kembangan, Selangor</p>
+            <p>Years Attended: 2022 - 2026</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    
+    
+    </section>    
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:wndhafa@gmail.com">wndhafa@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://linkedin.com/in/muhammad-dhafa-warganegara">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Activity</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
